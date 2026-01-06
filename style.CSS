@@ -1,0 +1,269 @@
+@import url('http://fontstruct.com');
+   
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: black;
+    background-image: url('https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/252490/ss_dd5a5bf9a19b8b8a078dfdae8b7e09c0e78d2b4d.1920x1080.jpg?t=1761667247');
+      background-repeat: no-repeat;
+   background-attachment: fixed;
+     background-position: center center;
+     background-size: cover;
+
+}
+
+.kybik {
+    background: radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    width: 750px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 0 auto;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  
+}
+
+.kybik img {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.POFACTY {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  position:absolute;
+  right:1230px;
+    
+  
+}
+
+.maska {
+  position:absolute;
+  right:590px;
+  z-index:1;
+  top:1020px;
+}
+
+
+.Cheezee {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  position:absolute;
+  right:720px;
+    
+  
+}
+
+.pipo {
+   
+    margin: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pipiu {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.nepopa {
+  position:absolute;
+  right:5px;
+  top:2292px;
+  z-index:1;
+  
+}
+
+.twich {
+  padding-left:50px
+}
+
+footer {
+    background:#98B1CA;
+    height: 100%;
+    opacity: 0.9;
+  display:flex;
+  
+  
+}
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-image: url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_651097c65458ae555b42c42dd9667d7174397bdf.1920x1080.jpg?t=1761667247');
+  background-size:contain;
+  height: 500px;
+  background-position: center center;
+  padding: 5px 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+  height:1000px;
+}
+
+.wrap-logo {
+  display: flex;
+  align-items: center;
+ 
+}
+
+
+.logo img {
+height: 120px;
+vertical-align: top;
+position: absolute;
+left:90px;
+top:100px;
+}
+
+
+header a {
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  border-radius: 4px;
+}
+
+.godhgdlg {
+    background-color:white ;
+    width: 800px;
+    height: 1200px;
+    margin: 0 auto;
+    opacity: 0.9;
+    margin-top:20px ;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.popa{
+    opacity: 1;
+    padding-left:20px ;
+}
+
+.popas {
+    padding-left:280px ;
+}
+
+.kalash {
+  position:absolute;
+  top:1550px;
+  left:700px;
+}
+
+.RUSTT {
+    padding-left:20px ;
+    padding-right:20px ;
+    font-size: 20px;
+}
+
+.clans {
+    padding-left:20px ;
+    padding-right:20px ;
+    font-size: 19px;
+
+}
+
+.kaban {
+    position: absolute;
+    top: 1020px;
+    z-index: 0;
+    left: 350px;
+}
+
+  header a.logo {
+  display: flex;              
+  align-items: center;        
+  gap: 10 px;                  
+  font-size: 75px;
+  font-family:sans-serif ;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+.site-name{
+  margin-top: 30px;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+  }
+
+.menu > a:hover {
+
+  }
+
+.submenu {
+    position: absolute;
+    top: 120%; /* немного ниже основной ссылки */
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    transform: translateY(10px);
+    pointer-events: none; /* чтобы не мешал */
+    transition: all 0.5s ease;
+    min-width: 150px;
+    padding: 10px;
+    z-index:1;
+  }
+
+.submenu a {
+    display: block;
+    padding: 6px 10px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 4px;
+    transition: background 0.2s;
+    
+  }
+
+.submenu a:hover {
+    background: white; 
+  }
+
+.menu:hover .submenu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+header a:hover {
+    transition:1s;
+  color: #CE412B;
+}
+
+header a.active {
+  background-color: rgba(238, 174, 202, 1);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  }
